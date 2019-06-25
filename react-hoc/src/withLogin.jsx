@@ -3,19 +3,20 @@ import React, { Component } from 'react';
 const withLogin = (Com) => {
   const isLogin = false;
   class NewComponent extends Component {
-    render () {
-      const props = this.props
-      if(!isLogin) {
+    // 
+    render() {
+      const props = this.props;
+      if (!isLogin) {
         return (
           <button>需要登录</button>
         )
       }
       return (
-      <Com {...props} />
+        <Com {...props}/>
       )
     }
   }
-  NewComponent.displayName = `withLogin(${Com.displayName})`
+  NewComponent.displayName=`withLogin(${Com.displayName})`
   return NewComponent;
 }
 
