@@ -1,0 +1,46 @@
+Arguments: 
+  D:\nvm\v8.14.0\node.exe C:\Users\Administrator.USER-20190219PT\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add babel-core babel-cli babel-preset-env -D
+
+PATH: 
+  C:\Users\Administrator.USER-20190219PT\bin;D:\git\Git\mingw32\bin;D:\git\Git\usr\local\bin;D:\git\Git\usr\bin;D:\git\Git\usr\bin;D:\git\Git\mingw32\bin;D:\git\Git\usr\bin;C:\Users\Administrator.USER-20190219PT\bin;D:\java环境\jdk1.8.0_77\bin;D:\java环境\jdk1.8.0_77\jre\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Users\Administrator.USER-20190219PT\旅梦;redis;D:\mysql\mysql-5.6.27-winx64\bin;D:\nvm;C:\Program Files\nodejs;D:\nvm;D:\nvm;C:\Program Files\nodejs;D:\git\Git\cmd;C:\Users\Administrator.USER-20190219PT\旅梦\Microsoft VS Code\bin;C:\Users\Administrator.USER-20190219PT\AppData\Roaming\npm;C:\Users\Administrator.USER-20190219PT\lm;Microsoft VS Code\bin;D:\nvm;C:\Program Files\nodejs;D:\nvm;D:\nvm\v8.14.0;D:\git\Git\usr\bin\vendor_perl;D:\git\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.16.0
+
+Node version: 
+  8.14.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile 'C:\Users\Administrator.USER-20190219PT\AppData\Local\Yarn\Cache\v4\npm-inherits-2.0.1-b17d08d326b4423e568eff719f91b0b1cbdf69f1\node_modules\inherits\inherits_browser.js' -> 'd:\lm\React-learn\try-react-typescript\node_modules\assert\node_modules\inherits\inherits_browser.js'
+
+npm manifest: 
+  {
+    "name": "try-react-typescript",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "webpack": "^4.35.0",
+      "webpack-cli": "^3.3.5",
+      "webpack-dev-server": "^3.7.2"
+    },
+    "dependencies": {
+      "react": "^16.8.6",
+      "react-dom": "^16.8.6"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
